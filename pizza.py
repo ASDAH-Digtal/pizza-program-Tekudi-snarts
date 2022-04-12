@@ -4,13 +4,13 @@ from tkinter import ttk
 root = tk.Tk()
 
 #Name of the ordering system, name of pizza lists
-title_label = ttk.Label(root, text="Pizza ordering system")
+title_label = ttk.Label(root, text="Pizza ordering system", font='ComicSansMS 14 bold')
 title_label.grid(row=0, column=0, columnspan=2)
 
-regular_pizza_label = ttk.Label(root, text="Regular Pizza ($8.50)")
+regular_pizza_label = ttk.Label(root, text="Regular Pizza ($8.50)", font='ComicSansMS 12 bold')
 regular_pizza_label.grid(row=1, column=0)
 
-gourmet_pizza_label = ttk.Label(root, text="Gourmet Pizza $12")
+gourmet_pizza_label = ttk.Label(root, text="Gourmet Pizza $12", font='ComicSansMS 12 bold')
 gourmet_pizza_label.grid(row=1, column=1)
 
 #Labels for the normal pizza's
